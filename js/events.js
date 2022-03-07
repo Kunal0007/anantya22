@@ -1,3 +1,5 @@
+// rendering events on homepage as indi cards
+
 const events = [
   {
     title: "Perplexo",
@@ -6,12 +8,42 @@ const events = [
   },
   {
     title: "It's Debatable",
-    img: "./../assets/icon1/png",
+    img: "./../assets/icon1.png",
     prize: "Rs. 5000",
   },
   {
     title: "Design & Develop",
-    img: "./../assets/icon1/png",
+    img: "./../assets/icon1.png",
+    prize: "Rs. 5000",
+  },
+  {
+    title: "Perplexo",
+    img: "./assets/icon1.png",
+    prize: "Rs. 5000",
+  },
+  {
+    title: "It's Debatable",
+    img: "./../assets/icon1.png",
+    prize: "Rs. 5000",
+  },
+  {
+    title: "Design & Develop",
+    img: "./../assets/icon1.png",
+    prize: "Rs. 5000",
+  },
+  {
+    title: "Perplexo",
+    img: "./assets/icon1.png",
+    prize: "Rs. 5000",
+  },
+  {
+    title: "It's Debatable",
+    img: "./../assets/icon1.png",
+    prize: "Rs. 5000",
+  },
+  {
+    title: "Design & Develop",
+    img: "./../assets/icon1.png",
     prize: "Rs. 5000",
   },
 ];
@@ -21,10 +53,10 @@ const container = document.querySelector(".events-container");
 function returnCards(events) {
   return events.map(
     (event) => `
-        <div class="card m-3" style="width:20rem">
+        <div class="card event-card m-3" style="width:23rem">
         <div class="card-body">
-              <div class="d-flex flex-row">
-                <img src="${event.img}" alt="logo" style="width: 2rem; height: 2rem;"/>
+              <div class="d-flex align-items-center card-head">
+                <img src="${event.img}" alt="logo" class="event-card-icon"/>
                 <h5 class="event-title">${event.title}</h5>
               </div>
               <div class="prizes m-2">
