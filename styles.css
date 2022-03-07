@@ -1,6 +1,6 @@
-* {
-  font-size: 3rem;
-}
+/* * {
+  font-size: 2rem;
+} */
 
 body {
   margin: 0;
@@ -9,13 +9,12 @@ body {
   box-sizing: border-box;
   flex-direction: column;
   overflow-x: hidden;
-  /* font-size: 180px; */
 }
 
 .hero {
   height: 100vh;
   width: 100vw;
-  /* position: absolute; */
+  position: absolute;
   z-index: 6;
   order: 1;
   justify-content: center;
@@ -28,18 +27,17 @@ canvas {
 }
 
 .hero-logo {
-  position: absolute;
-  top: 30%;
-  left: 37%;
+  /* top: 50%; */
   z-index: 5;
-  transform: scale(1.5);
+  /* width: 50vw; */
+  transform: scale(0.3);
 }
 
 .about {
   height: 100vh;
   width: 100vw;
   order: 2;
-  background-image: url("ugh.png");
+  /* background-image: url("ugh.png"); */
   background-repeat: no-repeat;
   object-fit: cover;
 }
@@ -48,6 +46,28 @@ canvas {
   order: 3;
 }
 
+/* event card */
+
 .card {
   /* font-size: 5rem; */
+  background-color: #1c1c31 !important;
+  color: #fff;
+}
+
+.card-body {
+  margin: 1rem;
+}
+
+.event-title {
+  font-size: 2rem;
+}
+
+.prizes::before {
+  width: 197px;
+  height: 35px;
+  content: "";
+  background-image: url(../assets/shape-bg.png);
+  position: absolute;
+  left: -30px;
+  top: -7px;
 }
