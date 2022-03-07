@@ -9,6 +9,7 @@ body {
   box-sizing: border-box;
   flex-direction: column;
   overflow-x: hidden;
+  font-family: "Inter", sans-serif;
 }
 
 .hero {
@@ -27,10 +28,8 @@ canvas {
 }
 
 .hero-logo {
-  /* top: 50%; */
   z-index: 5;
-  /* width: 50vw; */
-  transform: scale(0.3);
+  transform: scale(0.4);
 }
 
 .about {
@@ -44,14 +43,30 @@ canvas {
 
 .events {
   order: 3;
+  background-color: #0f0f1f !important;
 }
 
 /* event card */
 
 .card {
   /* font-size: 5rem; */
-  background-color: #1c1c31 !important;
+  background-color: #1e1f35 !important;
   color: #fff;
+  /* border-radius: 5px !important; */
+  /* opacity: 0.9; */
+}
+
+.card:hover {
+  background-image: radial-gradient(
+    circle,
+    rgba(137, 120, 211, 0.4) 0%,
+    #1e1f35 100%
+  );
+}
+
+.card:hover .border-shadow {
+  opacity: 1;
+  visibility: visible;
 }
 
 .card-body {
@@ -60,6 +75,7 @@ canvas {
 
 .event-title {
   font-size: 2rem;
+  font-family: "Russo One", sans-serif;
 }
 
 .prizes::before {
@@ -68,6 +84,10 @@ canvas {
   content: "";
   background-image: url(../assets/shape-bg.png);
   position: absolute;
-  left: -30px;
-  top: -7px;
+  left: 0px;
+  /* top: px; */
+}
+
+.event-details {
+  font-size: 1.2rem;
 }
