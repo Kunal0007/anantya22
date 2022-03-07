@@ -69,8 +69,8 @@ function returnCards(events) {
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
               
-              <button class="p-2"><a href="#" class="card-link">Card link</a></button>
-              <button><a href="#" class="card-link">Card link</a></button>
+              <button class="event-card-button">Register!</button>
+           
         </div>
         </div>`
   );
