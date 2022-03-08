@@ -18,6 +18,26 @@ body {
   justify-content: center;
   align-items: center;
 }
+.navbar {
+  position: absolute !important;
+  top: 2%;
+  width: 100%;
+  z-index: 5;
+  background-color: transparent;
+}
+
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nav-logo {
+  width: 6rem;
+}
 
 canvas {
   width: 100%;
