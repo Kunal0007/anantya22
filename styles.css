@@ -1,3 +1,25 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ff00ad #090b1a;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #090b1a;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff00ad;
+    border-radius: 8px;
+    border: 3px solid #090b1a;
+  }
+
 body {
   margin: 0;
   padding: 0;
@@ -9,6 +31,7 @@ body {
 }
 
 /* HERO AND CANVAS */
+
 .hero {
   height: 100vh;
   width: 100vw;
@@ -30,13 +53,26 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
+.nav-link {
+  color: #fffafa !important;
+}
+.nav-link:hover {
+  color: #f171c9 !important;
+}
 .navbar-right {
   position: absolute;
   right: 0;
   top: 0;
+  margin-right: 1.8rem;
 }
+
 .nav-logo {
   width: 6rem;
+  margin-left: 1.8rem;
+}
+.nav-item {
+  font-family: "Audiowide", cursive;
+  font-size: 1.5rem;
 }
 
 canvas {
@@ -44,15 +80,64 @@ canvas {
   height: 100%;
 }
 
+/* LOGO ANIMATION */
+
 .hero-logo {
   z-index: 5;
-  transform: scale(0.4);
+  transform: scale(0.5);
 }
+
+#logo1{
+  animation: fillPink 0.5s ease forwards 3.2s;
+  filter: drop-shadow(0px 0px 12px #ff00ad);    
+}
+
+#logo1 path:nth-child(-n+3) {
+  stroke-dasharray: 800px;
+  stroke-dashoffset: 800px;
+  animation: text-anim 3.2s ease forwards 1s;
+}
+
+#logo2 {
+  animation: fillBlue 0.5s ease forwards 3.2s;
+  filter: drop-shadow(0px 0px 12px #1C08FE);    
+}
+
+#logo2 path:nth-child(-n+3) {
+  stroke-dasharray: 650px;
+  stroke-dashoffset: 650px;
+  animation: text-anim 3.2s ease forwards 1s;
+}
+
+@keyframes fillPink {
+  from{
+    fill: transparent;
+  }
+  to {
+    fill: #FF00AD;
+  }
+}
+
+@keyframes fillBlue {
+  from{
+    fill: transparent;
+  }
+  to {
+    fill: #1C08FE;
+  }
+}
+
+@keyframes text-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+} 
 
 /* ABOUT SECTION */
 .about {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
+  height: auto;
   /* background-color: #090b1a; */
   background-color: #0f0f1f !important;
   display: flex;
@@ -61,6 +146,8 @@ canvas {
   order: 2;
   position: relative;
   color: white;
+  padding: 5rem;
+  
 }
 
 .about h1 {
@@ -76,20 +163,33 @@ canvas {
 
 .about-card {
   padding: 3rem;
-  width: 80vw;
-  height: 75vh;
+  width: 80%;
+  height: 75%;
   background-color: #1e1f35 !important;
+  
+  
 }
 
 .about-vector {
+  
   position: absolute;
-  bottom: 0;
-  right: -25%;
-  width: 85%;
-  height: 85%;
+  bottom: 0%;
+  right: 0%;
+  height: fit-content;
+  width: 55%;
+ 
 }
 
 /* EVENT SECTION */
+
+.events-title {
+  font-family: "Russo One", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
 .events {
   order: 3;
   background-color: #090b1a !important;
@@ -100,6 +200,24 @@ canvas {
   .events-container {
     margin: 0 5rem !important;
   }
+  
+}
+@media screen and (max-width: 1000px) {
+  .about-card {
+    width: 100%;
+    transition: 1s ease-in;
+  }
+  .about-vector{
+    width: 75%;
+  }
+  .about p{
+    font-size: 1 rem;
+    width: 100%;
+  }
+  .events-title{
+    font-size: 2rem;
+  }
+  
 }
 
 /* indi event card */
@@ -176,4 +294,11 @@ canvas {
 button.button:hover {
   box-shadow: none;
   color: white;
+}
+
+/* EVENT PAGE */
+.event-card{
+  height:90vh;
+  width:90vw;
+  background-color: rgba(137, 120, 211, 0.4) 0%;
 }
