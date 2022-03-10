@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "eventName": "Talking Titans",
+    "cellName": "CPDC+ISR",
+    "tagLine": "Listen. Think. Speak.",
+    "eventHeads": [],
+
+    "facultyHead": "",
+    "description": "This event will test your speaking skills and will help in overcoming your stage fear.",
+    "entryFees": {
+      "nonCesa": 50,
+      "cesa": 30
+    },
+    "prizes": [2000, 1500, 1000],
+    "rules": [
+      "Detailed Rules can be viewed <a href='https://docs.google.com/document/d/1mp89AO0t-7joi3FlejZjYN8sMGDWuuVd7WTYHYkXW18/edit'>here</a>",
+      "Number of rounds: 2",
+      "No. of hours and days required:2 days and per day 2-3 hours",
+      "The judge will base his/her decision entirely on the material presented, without regard for other material which he may happen to possess and declare the result."
+    ]
+  }
+]

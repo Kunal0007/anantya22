@@ -2,59 +2,56 @@
 
 const events = [
   {
-    id:1,
+    id: 1,
     title: "Perplexo",
     img: "./assets/icon1.png",
     prize: "Rs. 5000",
   },
   {
-    id:2,
+    id: 2,
     title: "It's Debatable",
     img: "./../assets/icon1.png",
     prize: "Rs. 5000",
-    link:"/events/perplexo",
+    link: "/events/perplexo",
   },
   {
-    id:3,
+    id: 3,
     title: "Design & Develop",
     img: "./../assets/icon1.png",
     prize: "Rs. 5000",
-    link:"/events/designanddevelop",
+    link: "/events/designanddevelop",
   },
   {
-    id:4,
+    id: 4,
     title: "Perplexo",
     img: "./assets/icon1.png",
     prize: "Rs. 5000",
-    link:"/events/xyz",
+    link: "/events/xyz",
   },
   {
-    id:5,
+    id: 5,
     title: "It's Debatable",
     img: "./../assets/icon1.png",
     prize: "Rs. 5000",
-    link:"/events/abc",
+    link: "/events/abc",
   },
 ];
 
-
 // load and display cards on main page
 
-const routeChange=(e)=>{
+const routeChange = (e) => {
   // console.log(e.dataset)
-  location.href = "/events/#"+e.dataset.path
-}
+  location.href = "/events/#" + e.dataset.path;
+};
 
+const load = async () => {
+  let res = await fetch("");
+  let data = await res.json();
 
-const load = async ()=>{
-  let res =  await fetch("https://raw.githubusercontent.com/pccoeacm/data-store/main/events.json");
-  let data = await res.json()
+  $("#events-container").html("");
 
-  $("#events-container").html("")
-
-  data.forEach(
-    (event) => {
-    $('.events-container').append(`
+  data.forEach((event) => {
+    $(".events-container").append(`
         <div class="card event-card m-3" style="width:23rem">
         <div class="card-body">
               <div class="d-flex align-items-center card-head">
@@ -71,15 +68,15 @@ const load = async ()=>{
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
               
-              <button class="event-card-button" data-path=${event.eventName.split(" ").join("_")} onclick="routeChange(this)">See Details</button>
+              <button class="event-card-button" data-path=${event.eventName
+                .split(" ")
+                .join("_")} onclick="routeChange(this)">See Details ></button>
+
+              <button class="event-card-register">Register</button>
            
           </div>
-        </div>`)
-    }
-    );
-    
-}
+        </div>`);
+  });
+};
 
-
-
-  load()
+load();
