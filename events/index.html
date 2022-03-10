@@ -17,23 +17,50 @@
 
     <title>Document</title>
   </head>
-  <body>
-    <div class="events py-5 ">
+  <body style="background-color:">
+    <div class="events py-5 d-flex poster-desc justify-content-center events-container">
         <!-- <h1 class="events-title d-flex justify-content-center">Events</h1> -->
-          <div class="d-flex justify-content-center events-container flex-wrap">
+        <div class="event-box"> 
+        <div class="d-flex poster-desc justify-content-center events-container flex-wrap">
            <!-- event cards thru events.js -->
-           <div class="event-box d-flex justify-content-center flex-wrap">
+           
              <div class="event-poster" id="poster">
              </div>
-             <div class="event-description" id="description">Description
+             <div class="event-description" id="description">
               <h1 id="event-name"></h1>
-              <h4 id="tagline"></h4>
+              <h3 id="tagline"></h4>
               <h4 id="cell"></h4>
+              <h4 id="description"></h4>
              </div>
            </div>
+        <div class="erules">
+          <div class="efaculty-head d-flex">
+            <h1>Faculty head:</h1>
+            <p id="efaculty-head"></p>
+          </div> 
+          <div class="efees d-flex">
+            <h1>Fees:</h1>
+            <p id="efees">Rs. </p>
           </div>
-      </div>
+          <div class="eprizes d-flex">
+            <h1>Prizes:</h1>
+            <p id="eprizes-value"></p>
+          </div>
+          <div class="epcoordinators d-flex">
+            <h1>Coordinators:</h1>
+            <p id="ecoordinators"></p>
+          </div>
+          <div class="erules d-flex">
+            <h1>Rules:</h1>
+            <p id="erules-value"></p>
+          </div>
 
+        </div>
+          </div>
+
+
+        </div>
+ 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 

@@ -45,7 +45,9 @@ const routeChange = (e) => {
 };
 
 const load = async () => {
-  let res = await fetch("");
+  let res = await fetch(
+    "https://raw.githubusercontent.com/palakg01/anantya22/master/events.json?token=GHSAT0AAAAAABKHQTROEQGX4XPXF7NO5NZMYRSYPTA"
+  );
   let data = await res.json();
 
   $("#events-container").html("");
@@ -55,7 +57,7 @@ const load = async () => {
         <div class="card event-card m-3" style="width:23rem">
         <div class="card-body">
               <div class="d-flex align-items-center card-head">
-                <img src="" alt="logo" class="event-card-icon"/>
+                <img src="${event.icon}" alt="logo" class="event-card-icon"/>
                 <h5 class="event-title">${event.eventName}</h5>
               </div>
               <div class="prizes m-2">
