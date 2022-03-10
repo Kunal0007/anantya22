@@ -1,12 +1,22 @@
 [
   {
     "id": 0,
+    "icon": "/assets/icon3.png",
     "eventName": "Talking Titans",
     "cellName": "CPDC+ISR",
-    "tagLine": "Listen. Think. Speak.",
-    "eventHeads": [],
+    "tagLine": "Know how you can persuade!",
+    "eventHeads": [
+      {
+        "name": "Rutuja Patil",
+        "phoneNumber": 9327076993
+      },
+      {
+        "name": "Diya Tilani",
+        "phoneNumber": 9527237904
+      }
+    ],
 
-    "facultyHead": "",
+    "facultyHead": ["Prof.Shailesh Galande", "Prof. Harshada Mhaske"],
     "description": "This event will test your speaking skills and will help in overcoming your stage fear.",
     "entryFees": {
       "nonCesa": 50,
@@ -14,10 +24,14 @@
     },
     "prizes": [2000, 1500, 1000],
     "rules": [
-      "Detailed Rules can be viewed <a href='https://docs.google.com/document/d/1mp89AO0t-7joi3FlejZjYN8sMGDWuuVd7WTYHYkXW18/edit'>here</a>",
+      "Detailed Rules can be viewed <a href=''>here</a>",
       "Number of rounds: 2",
-      "No. of hours and days required:2 days and per day 2-3 hours",
-      "The judge will base his/her decision entirely on the material presented, without regard for other material which he may happen to possess and declare the result."
+      "Time required: 1.5 hr",
+      "Participants must follow given timing, as the rounds will start sharp on time.",
+      "There will teams of 4-5 members for 1st round GD i.e. Group Discussion.",
+      "After qualifying 1st round, teams will made each consisting of 2 speakers for 2nd round Debate.",
+      "There will be a time limit of 7 mins for each topic so one of the team must conclude so as to complete each round in the given time limit.",
+      "Interrupting a speaker is forbidden."
     ]
   }
 ]
