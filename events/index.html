@@ -23,40 +23,57 @@
     </nav>
     <div class="py-5 d-flex justify-content-center">
       <div class="event-box"> 
-        <div class="poster-desc d-flex">
+        <div class="poster-desc">
           <div class="event-poster" id="poster">
             <img src="" alt="poster" id="eventPosterImg"/>
           </div>
           
-          <div class="event-description d-flex flex-column" id="description">
+          <div class="event-description  d-flex flex-column" id="description">
+            <div class="headingevent">
             <h1 id="event-name"></h1>
             <h3 id="eTagline"></h4>
-            <h4 id="eCell"></h4>
+            </div>
+              <div class="cell">
+                <h4 id="eCell"></h4>
+              </div>
+<div class="descrip">
+          <h5>Description</h5>
             <h4 id="eDescription">This event will test your speaking skills and will help in overcoming your stage fear.</h4>
             </div>
           </div>
-
-        <div class="eDetails d-flex flex-column">
-          <div class="faculty-head detail d-flex">
-            <h1 class="detail-left">Faculty head:</h1>
+        </div>
+        <div class="eDetails">
+         
+        <div class="prizediv">
+            <h3 class="detail-left prizeHeading">Prizes</h3>
+            <div class="prizes">
+            <ol class="detail-right prize" id="eprizes-value1"></ol>
+            <ol class="detail-right prize" id="eprizes-value2"></ol>
+            <ol class="detail-right prize" id="eprizes-value3"></ol>
+          </div>
+          </div>
+          <div class="feesdiv">
+            <div class="fees">
+              <h3 class="detail-left">Fees</h3>
+              <p class="detail-right" id="efees"></p>
+            </div>
+          </div>
+          <div class="info">
+          <div class="faculty-head infodetail">
+            <h3 class="detail-left">Faculty head</h3>
             <ol class="detail-right" id="efaculty-head"></ol>
           </div> 
-          <div class="fees detail d-flex">
-            <h1 class="detail-left">Fees:</h1>
-            <p class="detail-right" id="efees"></p>
-          </div>
-          <div class="prizes detail d-flex justify-content-evenly">
-            <h1 class="detail-left">Prizes:</h1>
-            <ol class="detail-right" id="eprizes-value"></ol>
-          </div>
-          <div class="pcoordinators detail d-flex">
-            <h1 class="detail-left">Coordinators:</h1>
+        
+          <div class="pcoordinators infodetail ">
+            <h3 class="detail-left">Coordinators:</h3>
             <ol class="detail-right" id="ecoordinators"></ol>
           </div>
-          <div class="erules detail d-flex">
-            <h1 class="detail-left">Rules:</h1>
+          <div class="erules infodetail ">
+            <h3 class="detail-left">Rules:</h3>
             <ol class="detail-right" id="erules-value"></ol>
           </div>
+        </div>
+         
         </div>
       </div>
     </div>

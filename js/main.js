@@ -30,11 +30,17 @@ const loadEvent = async () => {
   // .text(event.facultyHead);
 
   // efees
-  $("#efees").text(`Rs. ${event.entryFees.cesa}`);
+  $("#efees").text(`Rs.${event.entryFees.cesa}`);
   //
 
-  event.prizes.map((e) => {
-    $("#eprizes-value").append(`<li>Rs. ${e}</li>`);
+  event.prizes.map((e,index) => {
+ if(index == 0){
+  $("#eprizes-value1").append(`<li>Rs. ${e}</li>`);
+ }else if(index == 1){
+  $("#eprizes-value2").append(`<li>Rs. ${e}</li>`);
+ }else{
+  $("#eprizes-value3").append(`<li>Rs. ${e}</li>`);
+ } 
   });
   event.eventHeads.map((e) => {
     $("#ecoordinators").append(`<li>${e.name} : ${e.phoneNumber}</li>`);

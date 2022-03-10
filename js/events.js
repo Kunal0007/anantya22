@@ -61,7 +61,7 @@ const load = async () => {
               </div>
               <div class="prizes m-2">
                 <h4>
-                  ${event.cellName}
+                  // ${event.cellName}
                 </h4>
               </div>
 
