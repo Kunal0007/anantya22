@@ -40,7 +40,6 @@ const events = [
 // load and display cards on main page
 
 const routeChange = (e) => {
-  // console.log(e.dataset)
   location.href = "/events/#" + e.dataset.path;
 };
 
