@@ -74,7 +74,7 @@ padding: 10px;
 }
 .poster-desc {
   display: flex;
-  height: 350px;
+  height: 100%
 }
 
 .eDetails {
