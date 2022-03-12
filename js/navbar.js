@@ -2,7 +2,7 @@ $(".navbar").html(`
 <div class="container-fluid">
 
   <a href="/index.html">
-    <img class="nav-logo" src="/assets/Group 41.svg" />
+    <img class="nav-logo" src="https://raw.githubusercontent.com/pccoeacm/data-store/main/Group%2041.svg" />
   </a>
   <button
     class="navbar-toggler"
