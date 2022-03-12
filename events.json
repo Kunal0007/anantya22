@@ -5,7 +5,7 @@
     "eventName": "Talking Titans",
     "cellName": "CPDC+ISR",
     "tagLine": "Know how you can persuade!",
-    "poster": "https://picsum.photos/id/237/200/300",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
     "eventHeads": [
       {
         "name": "Rutuja Patil",
@@ -24,6 +24,7 @@
       "cesa": 30
     },
     "prizes": [2000, 1500, 1000],
+    "totalPrizes":4500,
     "rules": [
       "Detailed Rules can be viewed <a href=''>here</a>",
       "Number of rounds: 2",
@@ -41,7 +42,7 @@
     "eventName": "Perplexo",
     "cellName": "Webmasters",
     "tagLine": "Perplexical Labyrinth",
-    "poster": "",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
     "eventHeads": [
       {
         "name": "Shamik Ghadge",
@@ -60,6 +61,7 @@
       "cesa": 70
     },
     "prizes": [2000, 1500, 800],
+    "totalPrizes":4500,
     "rules": ["Detailed Rules can be viewed <a href=''>here</a>"]
   },
   {
@@ -68,7 +70,7 @@
     "eventName": "Intellect-Apt",
     "cellName": "Higher Studies Cell",
     "tagLine": "Get, Set, Apti!",
-    "poster": "",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
     "eventHeads": [
       {
         "name": "Tanvi Mehta",
@@ -91,6 +93,7 @@
       "cesa": 50
     },
     "prizes": [1200, 800, 500],
+    "totalPrizes":2500,
     "rules": [
       "Detailed Rules can be viewed <a href=''>here</a>",
       "Number of rounds: 2",
@@ -105,7 +108,7 @@
     "eventName": "Codigo 2.0",
     "cellName": "Coding Cell",
     "tagLine": "",
-    "poster": "",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
     "eventHeads": [
       {
         "name": "Vedant Nerkar",
@@ -120,6 +123,7 @@
       "cesa": 50
     },
     "prizes": [3000, 1500, 1000],
+    "totalPrizes":5500,
     "rules": [
       "Score will depend on the number of test cases passed",
       "Solve the questions within the time limit.",
