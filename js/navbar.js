@@ -1,9 +1,8 @@
 $(".navbar").html(`
 <div class="container-fluid">
 
-  <a href="index.html">
-    <img class="nav-logo" src="./assets/Group 41.svg" />
-
+  <a href="/index.html">
+    <img class="nav-logo" src="/assets/Group 41.svg" />
   </a>
   <button
     class="navbar-toggler"

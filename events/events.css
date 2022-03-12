@@ -150,7 +150,7 @@
 .faculty-head {
   height: 250px;
   flex-basis: 20%;
-
+}
 
 .prizediv {
   text-align: center;
@@ -256,7 +256,7 @@ ol {
   margin: 10px;
   flex-basis: 65%;
 }
-.erules li{
+.erules li {
   list-style: circle;
   margin-left: 10px;
 }
@@ -268,7 +268,7 @@ ol {
   -webkit-transform: rotate(360deg) scale(1.28);
 }
 
-.faculty{
+.faculty {
   display: flex;
   flex-direction: column;
   flex-basis: 30%;
@@ -312,16 +312,16 @@ ol {
     padding-bottom: 0px;
     /* flex-grow: 1; */
   }
-  .button{
+  .button {
     padding: 5px;
   }
-  .button p{
+  .button p {
     font-size: 12px;
   }
-  .faculty li{
+  .faculty li {
     font-size: 11px;
   }
-  .erules li{
+  .erules li {
     font-size: 11px;
   }
 }
