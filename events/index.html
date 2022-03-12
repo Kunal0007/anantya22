@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- stylesheet -->
     <link href="events.css" rel="stylesheet"></link>
+    <link href="./../styles.css" rel="stylesheet"></link>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +26,7 @@
       <div class="event-box"> 
         <div class="poster-desc">
           <div class="event-poster" id="poster">
-            <img src="" alt="poster" id="eventPosterImg"/>
+            <img src="../assets/Untitled design (3).png" alt="poster" />
           </div>
           
           <div class="event-description  d-flex flex-column" id="description">
@@ -34,11 +35,21 @@
             <h3 id="eTagline"></h4>
             </div>
               <div class="cell">
-                <h4 id="eCell"></h4>
+                <div class="button">
+                  <p>REGISTER HERE</p>
+                </div>
+                <!-- <h4 id="eCell"></h4> -->
               </div>
 <div class="descrip">
           <h5>Description</h5>
             <h4 id="eDescription">This event will test your speaking skills and will help in overcoming your stage fear.</h4>
+            </div>
+
+            <div class="feesdiv">
+              <div class="fees">
+                <h5 class="detail-left">Fees</h5>
+                <p class="detail-right" id="efees"></p>
+              </div>
             </div>
           </div>
         </div>
@@ -47,18 +58,30 @@
         <div class="prizediv">
             <h3 class="detail-left prizeHeading">Prizes</h3>
             <div class="prizes">
+              <div class="prizeflex">
+              <img style="width: 120px;" src="../assets/trophy2.png" alt="" srcset="">
             <ol class="detail-right prize" id="eprizes-value1"></ol>
+          </div>
+          <div class="prizeflex">
+           
+            <img style="width: 170px;" src="../assets/trophy1.png" alt="" srcset="">
             <ol class="detail-right prize" id="eprizes-value2"></ol>
+          </div>
+          <div class="prizeflex">
+            <img style="width: 120px;" src="../assets/trophy3.png" alt="" srcset="">
             <ol class="detail-right prize" id="eprizes-value3"></ol>
+
           </div>
+<<<<<<< HEAD
+=======
+          <div class="ePrizes detail d-flex justify-content-evenly">
+            <h1 class="detail-left">Prizes:</h1>
+            <ol class="detail-right" id="eprizes-value"></ol>
+>>>>>>> 030a77e1111b49ecd1c09c17a1d9468169e7b642
           </div>
-          <div class="feesdiv">
-            <div class="fees">
-              <h3 class="detail-left">Fees</h3>
-              <p class="detail-right" id="efees"></p>
-            </div>
           </div>
           <div class="info">
+            <div class="faculty">
           <div class="faculty-head infodetail">
             <h3 class="detail-left">Faculty head</h3>
             <ol class="detail-right" id="efaculty-head"></ol>
@@ -68,6 +91,7 @@
             <h3 class="detail-left">Coordinators:</h3>
             <ol class="detail-right" id="ecoordinators"></ol>
           </div>
+        </div>
           <div class="erules infodetail ">
             <h3 class="detail-left">Rules:</h3>
             <ol class="detail-right" id="erules-value"></ol>

@@ -7,23 +7,13 @@ const loadEvent = async () => {
 
   let event = data.filter((el) => el.eventName == eName)[0];
 
-  // poster
   $("#eventPosterImg").attr("src", event.poster);
-
-  // event-name
   $("#event-name").text(event.eventName);
-
-  // tagline
   $("#eTagline").text(event.tagLine);
-  // console.log(event.tagLine);
-
-  //cell
   $("#eCell").text(event.cellName);
-
-  //description
   $("#eDescription").text(event.description);
+  $("#efees").text(`Rs. ${event.entryFees.nonCesa}`);
 
-  //efaculty-head
   event.facultyHead.map((e) => {
     $("#efaculty-head").append(`<li>${e}</li>`);
   });
@@ -35,15 +25,23 @@ const loadEvent = async () => {
 
   event.prizes.map((e,index) => {
  if(index == 0){
-  $("#eprizes-value1").append(`<li>Rs. ${e}</li>`);
+   //This is for 2nd prize
+  $("#eprizes-value1").append(`<li>₹ ${e}</li>`);
  }else if(index == 1){
-  $("#eprizes-value2").append(`<li>Rs. ${e}</li>`);
+   //This is for 1st prize
+  $("#eprizes-value2").append(`<li>₹ ${e}</li>`);
  }else{
-  $("#eprizes-value3").append(`<li>Rs. ${e}</li>`);
+   //Else
+  $("#eprizes-value3").append(`<li>₹ ${e}</li>`);
  } 
   });
+
   event.eventHeads.map((e) => {
     $("#ecoordinators").append(`<li>${e.name} : ${e.phoneNumber}</li>`);
+  });
+
+  event.rules.map((e) => {
+    $("#erules-value").append(`<li>${e}</li>`);
   });
 };
 
