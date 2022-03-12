@@ -24,7 +24,7 @@
       "cesa": 30
     },
     "prizes": [2000, 1500, 1000],
-    "totalPrizes":4500,
+    "totalPrizes": 4500,
     "rules": [
       "Detailed Rules can be viewed <a href=''>here</a>",
       "Number of rounds: 2",
@@ -63,7 +63,7 @@
     },
     "prizes": [2000, 1500, 800],
 
-    "totalPrizes":4500,
+    "totalPrizes": 4500,
     "rules": ["Detailed Rules can be viewed <a href=''>here</a>"]
   },
   {
@@ -96,7 +96,7 @@
       "cesa": 50
     },
     "prizes": [1200, 800, 500],
-    "totalPrizes":2500,
+    "totalPrizes": 2500,
     "rules": [
       "Detailed Rules can be viewed <a href=''>here</a>",
       "Number of rounds: 2",
@@ -127,7 +127,7 @@
     },
     "prizes": [3000, 1500, 1000],
 
-    "totalPrizes":5500,
+    "totalPrizes": 5500,
     "rules": [
       "Score will depend on the number of test cases passed",
       "Solve the questions within the time limit.",
