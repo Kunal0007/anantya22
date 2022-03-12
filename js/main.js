@@ -18,8 +18,24 @@ const loadEvent = async () => {
     $("#efaculty-head").append(`<li>${e}</li>`);
   });
 
-  event.prizes.map((e) => {
-    $("#eprizes-value").append(`<li>Rs. ${e}</li>`);
+  // .text(event.facultyHead);
+
+  // efees
+  $("#efees").text(`Rs.${event.entryFees.cesa}`);
+  //
+
+
+  event.prizes.map((e,index) => {
+ if(index == 0){
+   //This is for 2nd prize
+  $("#eprizes-value1").append(`<li>₹ ${e}</li>`);
+ }else if(index == 1){
+   //This is for 1st prize
+  $("#eprizes-value2").append(`<li>₹ ${e}</li>`);
+ }else{
+   //Else
+  $("#eprizes-value3").append(`<li>₹ ${e}</li>`);
+ } 
   });
 
   event.eventHeads.map((e) => {

@@ -22,10 +22,8 @@ const load = async () => {
           </div>
           <div class="prizes m-2">
             <h4>
-              <span style='font-size:12px'>
-                Prizes worth:
-              </span>
-                Rs. 5000
+
+              ${event.cellName}
             </h4>
           </div>
           <div class="py-3 event-details">

@@ -42,7 +42,8 @@
     "eventName": "Perplexo",
     "cellName": "Webmasters",
     "tagLine": "Perplexical Labyrinth",
-    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
+    "poster": "",
+
     "eventHeads": [
       {
         "name": "Shamik Ghadge",
@@ -61,6 +62,7 @@
       "cesa": 70
     },
     "prizes": [2000, 1500, 800],
+
     "totalPrizes":4500,
     "rules": ["Detailed Rules can be viewed <a href=''>here</a>"]
   },
@@ -71,6 +73,7 @@
     "cellName": "Higher Studies Cell",
     "tagLine": "Get, Set, Apti!",
     "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
+
     "eventHeads": [
       {
         "name": "Tanvi Mehta",
@@ -123,6 +126,7 @@
       "cesa": 50
     },
     "prizes": [3000, 1500, 1000],
+
     "totalPrizes":5500,
     "rules": [
       "Score will depend on the number of test cases passed",
