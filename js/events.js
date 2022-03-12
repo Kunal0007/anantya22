@@ -37,6 +37,15 @@ const events = [
   },
 ];
 
+//Scroll Up
+
+function scrollUp() {
+  const scrollUp = document.getElementById('scrolltoTop');
+  // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+  if (this.scrollY >= 560) scrollUp.style.visibility="visible"; else scrollUp.style.visibility="hidden";
+}
+window.addEventListener('scroll', scrollUp)
+
 // load and display cards on main page
 
 const routeChange = (e) => {
