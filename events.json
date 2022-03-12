@@ -1,11 +1,11 @@
 [
   {
     "id": 0,
-    "icon": "/assets/icon1.png",
+    "icon": "/assets/talking.svg",
     "eventName": "Talking Titans",
     "cellName": "CPDC+ISR",
     "tagLine": "Know how you can persuade!",
-    "poster": "https://picsum.photos/id/237/200/300",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
     "eventHeads": [
       {
         "name": "Rutuja Patil",
@@ -24,6 +24,7 @@
       "cesa": 30
     },
     "prizes": [2000, 1500, 1000],
+    "totalPrizes":4500,
     "rules": [
       "Detailed Rules can be viewed <a href=''>here</a>",
       "Number of rounds: 2",
@@ -36,75 +37,100 @@
     ]
   },
   {
-    "id": 0,
-    "icon": "/assets/icon1.png",
-    "eventName": "Talking Titans",
-    "cellName": "CPDC+ISR",
-    "tagLine": "Know how you can persuade!",
-    "poster": "",
+    "id": 1,
+    "icon": "/assets/peprlexo.svg",
+    "eventName": "Perplexo",
+    "cellName": "Webmasters",
+    "tagLine": "Perplexical Labyrinth",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
     "eventHeads": [
       {
-        "name": "Rutuja Patil",
-        "phoneNumber": 9327076993
+        "name": "Shamik Ghadge",
+        "phoneNumber": 8237604776
       },
       {
-        "name": "Diya Tilani",
-        "phoneNumber": 9527237904
+        "name": "Palak Gupta",
+        "phoneNumber": 7083440398
       }
     ],
 
-    "facultyHead": ["Prof.Shailesh Galande", "Prof. Harshada Mhaske"],
-    "description": "This event will test your speaking skills and will help in overcoming your stage fear.",
+    "facultyHead": ["Prof. Ganesh Deshmukh"],
+    "description": "Perplexo is an event where you get to test your knowledge in the wide domain of the Internet and Technology. It is an event  consisting of a series of questions, a trail of hints followed by a sequence of surprisingly tricky answers along with a live ranking leaderboard. We return with greater difficulty, tougher ciphers and deeper trails. You have to be more attentive, cautious and aware than at any time you are. Push your limits, bend the rules and crack the code. Last year only one was able to reach level 6, but none completed the challenge.",
     "entryFees": {
-      "nonCesa": 50,
-      "cesa": 30
+      "nonCesa": 90,
+      "cesa": 70
     },
-    "prizes": [2000, 1500, 1000],
+    "prizes": [2000, 1500, 800],
+    "totalPrizes":4500,
+    "rules": ["Detailed Rules can be viewed <a href=''>here</a>"]
+  },
+  {
+    "id": 2,
+    "icon": "/assets/intellect.svg",
+    "eventName": "Intellect-Apt",
+    "cellName": "Higher Studies Cell",
+    "tagLine": "Get, Set, Apti!",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
+    "eventHeads": [
+      {
+        "name": "Tanvi Mehta",
+        "phoneNumber": 787848030
+      },
+      {
+        "name": "Aaishwarya Gaikwad",
+        "phoneNumber": 9657244049
+      },
+      {
+        "name": "Raghav Dhodla",
+        "phoneNumber": 9665847388
+      }
+    ],
+
+    "facultyHead": ["Prof. Priya Surana"],
+    "description": "This event will test aptitude and verbal skills. Aptitude questions will be similar to questions asked in competitive exams and placement. Verbal questions will be based on text completion where participants will have to choose the word that best completes the sentence.",
+    "entryFees": {
+      "nonCesa": 60,
+      "cesa": 50
+    },
+    "prizes": [1200, 800, 500],
+    "totalPrizes":2500,
     "rules": [
       "Detailed Rules can be viewed <a href=''>here</a>",
       "Number of rounds: 2",
-      "Time required: 1.5 hr",
-      "Participants must follow given timing, as the rounds will start sharp on time.",
-      "There will teams of 4-5 members for 1st round GD i.e. Group Discussion.",
-      "After qualifying 1st round, teams will made each consisting of 2 speakers for 2nd round Debate.",
-      "There will be a time limit of 7 mins for each topic so one of the team must conclude so as to complete each round in the given time limit.",
-      "Interrupting a speaker is forbidden."
+      "Time required: 1 hr",
+      "It is recommended to bring your own laptop, but it's NOT a compulsion",
+      "Participants must follow given timing, as the rounds will start sharp on time."
     ]
   },
   {
-    "id": 0,
-    "icon": "/assets/icon1.png",
-    "eventName": "Talking Titans",
-    "cellName": "CPDC+ISR",
-    "tagLine": "Know how you can persuade!",
-    "poster": "",
+    "id": 3,
+    "icon": "/assets/codigo.png",
+    "eventName": "Codigo 2.0",
+    "cellName": "Coding Cell",
+    "tagLine": "",
+    "poster": "https://raw.githubusercontent.com/palakg01/anantya22/master/assets/poster.png?token=GHSAT0AAAAAABKHQTRPV2WBO4H2FSI3NUSMYRUEYXQ",
     "eventHeads": [
       {
-        "name": "Rutuja Patil",
-        "phoneNumber": 9327076993
-      },
-      {
-        "name": "Diya Tilani",
-        "phoneNumber": 9527237904
+        "name": "Vedant Nerkar",
+        "phoneNumber": 8421921904
       }
     ],
 
-    "facultyHead": ["Prof.Shailesh Galande", "Prof. Harshada Mhaske"],
-    "description": "This event will test your speaking skills and will help in overcoming your stage fear.",
+    "facultyHead": ["Prof. Ganesh Deskmukh"],
+    "description": "This event will test your competitiveness, logic and data structure skills . It is an individual event. There will be 2 rounds. Each round will have a time limit of 2hrs. The first round will test your logical and  basic data structure skills. And the second round will test your competitive and advanced data structure skills. Each problem will have a predetermined score. A participant’s score depends on the number of test cases a participant’s code submission successfully passes. Participants are ranked by the score. If two or more participants achieve the same score, then the tie is broken by the total time taken to submit the last solution resulting in a higher score.",
     "entryFees": {
-      "nonCesa": 50,
-      "cesa": 30
+      "nonCesa": 60,
+      "cesa": 50
     },
-    "prizes": [2000, 1500, 1000],
+    "prizes": [3000, 1500, 1000],
+    "totalPrizes":5500,
     "rules": [
-      "Detailed Rules can be viewed <a href=''>here</a>",
-      "Number of rounds: 2",
-      "Time required: 1.5 hr",
-      "Participants must follow given timing, as the rounds will start sharp on time.",
-      "There will teams of 4-5 members for 1st round GD i.e. Group Discussion.",
-      "After qualifying 1st round, teams will made each consisting of 2 speakers for 2nd round Debate.",
-      "There will be a time limit of 7 mins for each topic so one of the team must conclude so as to complete each round in the given time limit.",
-      "Interrupting a speaker is forbidden."
+      "Score will depend on the number of test cases passed",
+      "Solve the questions within the time limit.",
+      "If 2 people have to be found with the same code, it will result in your immediate disqualification from the contest.",
+      "No electronic devices should be used while giving the contest.",
+      "Shortlisted participants of Round I will be applicable for Round ll.",
+      "In case of tie, then it will be broken by the total time taken to submit the last solution."
     ]
   }
 ]

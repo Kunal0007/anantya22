@@ -1,8 +1,10 @@
 $(".navbar").html(`
 <div class="container-fluid">
-  <img class="nav-logo" src="Group 41.svg" href="/" />
+  <a href="/index.html" class="navbar-brand">
+    <img class="nav-logo" src="/assets/Group 41.svg" />
+  </a>
   <button
-    class="navbar-toggler border border-white"
+    class="navbar-toggler"
     type="button"
     data-bs-toggle="collapse"
     data-bs-target="#navbarNav"
@@ -10,9 +12,9 @@ $(".navbar").html(`
     aria-expanded="false"
     aria-label="Toggle navigation"
   >
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon" ></span>
   </button>
-  <div class="collapse navbar-collapse navbar-right" id="navbarNav">
+  <div class="collapse navbar-collapse" id="navbarNav" >
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link active link-light" aria-current="page" href="#about">
