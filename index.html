@@ -7,6 +7,8 @@
     <!-- stylesheet -->
     <link href="styles.css" rel="stylesheet"></link>
 
+    <!---Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -118,10 +120,8 @@
       <!-- <button class="register-button">Register Now!</button> -->
     </div>
 
-
-
     <!-- ABOUT SECTION -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="about-card">
         <div class="about-title-div">
           <h1 style="margin-bottom: 2rem;">ABOUT</h1>
@@ -149,7 +149,7 @@
 
 
     <!-- EVENT SECTION -->
-    <div class="events py-5 ">
+    <div class="events py-5" id="events">
       <div class="event-title-div d-flex justify-content-center">
         <img src="../assets/steps.png" alt="step" id="step-1" >
         <h1 class="events-title">Events</h1>
@@ -158,6 +158,49 @@
       <div class="d-flex justify-content-center events-container flex-wrap" id="events-container">
          <!-- event cards thru events.js -->
         </div>
+    </div>
+
+    <div class="events">
+      <div class="footer__bg">
+        <div class="footer__container">
+            <div>
+                <h1 class="footer__title">Anantya</h1>
+                <span class="footer__subtitle">Experience the Realms Beyond!</span>
+            </div>
+
+            <div>
+              <ul class="footer__links" style="padding: 0;">
+                  <li>
+                      <a href="#about" class="footer__link">About</a>
+                  </li>
+                  <li>
+                      <a href="#events" class="footer__link">Events</a>
+                  </li>
+                  <li>
+                    <a href="#calender" class="footer__link">Calender</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__socials">     
+              <div>
+                <a href="https://www.facebook.com/pccoe.acm"><i class="fa-brands fa-facebook footer__social"></i></a>
+                <a href="https://www.instagram.com/pccoeacm/"><i class="fa-brands fa-instagram footer__social"></i></a>                               
+                <a href="mailto:acm@pccoepune.org"><i class="fa-solid fa-envelope footer__social"></i></a>                    
+                <a href="https://www.youtube.com/PCCOEACM"><i class="fa-brands fa-youtube footer__social"></i></a>                             
+                <a href="https://in.linkedin.com/company/pccoe-acm-student-chapter"><i class="fab fa-linkedin footer__social"></i></a>                              
+                <a href="https://twitter.com/pccoeacm"><i class="fab fa-twitter footer__social"></i></a>                             
+              </div>
+              <div class="footer__add">
+                  Pimpri Chinchwad College of Engineering.
+                  Near Akurdi Railway Station Rd, Sector No. 26, Pradhikaran, Nigdi, Pimpri-Chinchwad, Maharashtra 411044
+                  <br>Email: acm@pccoepune.org
+              </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Designed and developed with ❤️ by Web Team CESA | Copyright ©2021 All rights reserved</p>
+    </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
