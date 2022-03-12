@@ -19,12 +19,12 @@ $(".navbar").html(`
   <div class="collapse navbar-collapse" id="navbarNav" >
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link link-light" aria-current="page" href="#">
+        <a class="nav-link active link-light" aria-current="page" href="#about">
           About
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link link-light" href="events.html">
+        <a class="nav-link link-light " href="#events">
           Events
         </a>
       </li>
