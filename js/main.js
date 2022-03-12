@@ -17,11 +17,13 @@ const loadEvent = async () => {
   event.facultyHead.map((e) => {
     $("#efaculty-head").append(`<li>${e}</li>`);
   });
+
   // .text(event.facultyHead);
 
   // efees
   $("#efees").text(`Rs.${event.entryFees.cesa}`);
   //
+
 
   event.prizes.map((e,index) => {
  if(index == 0){
