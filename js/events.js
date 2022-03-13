@@ -4,7 +4,8 @@ const routeChange = (e) => {
 
 const load = async () => {
   let res = await fetch(
-    "https://raw.githubusercontent.com/palakg01/anantya22/master/events.json?token=GHSAT0AAAAAABKHQTROEQGX4XPXF7NO5NZMYRSYPTA"
+    // "https://raw.githubusercontent.com/palakg01/anantya22/master/events.json?token=GHSAT0AAAAAABKHQTROEQGX4XPXF7NO5NZMYRSYPTA"
+    "../events.json"
   );
   let data = await res.json();
 
@@ -36,3 +37,13 @@ const load = async () => {
 };
 
 load();
+
+//Scroll Up
+
+function scrollUp() {
+  const scrollUp = document.getElementById('scrolltoTop');
+  // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+  if (this.scrollY >= 350) scrollUp.style.visibility="visible"; else scrollUp.style.visibility="hidden";
+}
+window.addEventListener('scroll', scrollUp);
+
