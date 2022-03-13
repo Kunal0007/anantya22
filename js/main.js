@@ -1,6 +1,7 @@
 const loadEvent = async () => {
   let res = await fetch(
-    "https://raw.githubusercontent.com/pccoeacm/data-store/main/anantya22_events.json"
+    // "https://raw.githubusercontent.com/pccoeacm/data-store/main/anantya22_events.json"
+    "../events.json"
   );
   let data = await res.json();
   var eName = window.location.href.split("#")[1].split("_").join(" ");
