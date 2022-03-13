@@ -16,15 +16,8 @@ var renderer = new THREE.WebGLRenderer();
 renderer.setClearColor(0x080a19);
 renderer.setSize(hero.clientWidth, hero.clientHeight);
 
-// test
-$(window).on("load", function () {
-  setTimeout(function addMeta() {
-    document.body.appendChild(renderer.domElement);
-  }, 3000);
-});
-// test
 
-// document.body.appendChild(renderer.domElement);
+document.body.appendChild(renderer.domElement);
 
 window.addEventListener("resize", function () {
   camera.aspect = window.innerWidth / window.innerHeight;
