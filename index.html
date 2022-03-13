@@ -21,42 +21,12 @@
   </head>
   <body>
 
+    <!-- LOADER -->
     <div id="loading">
-      <!-- <svg width="300" height="500" id="goggle" viewBox="0 0 964 567" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g filter="url(#filter0_d_224_36)">
-        <path d="M109.604 398.922C156.656 463.023 259.093 501.518 390.171 498.756L406.475 478.605L425.657 456.536H489.916H558.97L592.538 498.756C722.372 510.846 805.681 473.597 858.092 398.922C891.013 352.016 911.394 280.524 884.711 207.109C880.403 195.253 874.011 184.241 866.203 174.334C829.534 127.815 788.256 107.588 697.249 85.0938C620.952 71.0806 574.751 65.3178 474.337 66.0638C393.833 69.2804 348.959 73.2528 269.446 85.0938C173.74 104.789 132.767 125.672 99.2357 174.053C92.2364 184.152 86.9883 195.383 83.0401 207.019C51.7558 299.217 65.25 338.496 109.604 398.922Z" stroke="url(#paint0_linear_224_36)" stroke-width="12" shape-rendering="crispEdges"/>
-        </g>
-        <defs>
-        <filter id="filter0_d_224_36" x="0" y="0" width="963.004" height="566.997" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-        <feOffset/>
-        <feGaussianBlur stdDeviation="30"/>
-        <feComposite in2="hardAlpha" operator="out"/>
-        <feColorMatrix type="matrix" values="0 0 0 0 0.0156863 0 0 0 0 0.741176 0 0 0 0 1 0 0 0 1 0"/>
-        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_224_36"/>
-        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_224_36" result="shape"/>
-        </filter>
-        <linearGradient id="paint0_linear_224_36" x1="900.915" y1="285.012" x2="66" y2="285.012" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#1C08FE"/>
-        <stop offset="1" stop-color="#FF00AD"/>
-        </linearGradient>s
-        </defs>
-        </svg> -->
-
         <img src="./assets/loader_final.gif" alt="loading...">
-
-        <!-- <svg width="350px" height="250px" viewBox="0 0 187.3 93.7" preserveAspectRatio="xMidYMid meet" style="left: 50%; top: 50%; position: absolute; transform: translate(-50%, -50%) matrix(1, 0, 0, 1, 0, 0);">
-        
-          <path stroke="#ededed" id="outline" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" 
-                d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 				c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
-          <path id="outline-bg" opacity="0.05" fill="none" stroke="#ededed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" 
-                d="				M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 				c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
-                        </svg> -->
     </div>
 
     <!-- HERO SECTION -->
-    
     <div class="hero d-flex flex-column" id="hero">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <!-- navbar goes here -->
@@ -150,7 +120,7 @@
         
       </div>  
         <span class="tagline-text">Experience the Realms Beyond!</span>
-        <a href="#" class="register-button"><span>Register Now! </span></a>
+        <a href="#" class="register-button"><span>Register Now!</span></a>
     </div>
 
     <div class="content" id="content">
@@ -252,9 +222,17 @@
 
 
     <script>
-      var loader=document.getElementById("loading");
-      window.addEventListener("load",function(){
-        loader.style.display="none";
+      window.addEventListener("load",function(){      
+          document.querySelector("#logo1 path:nth-child(1)").classList.add("logo1-animation");
+          document.querySelector("#logo1 path:nth-child(2)").classList.add("logo1-animation");
+          document.querySelector("#logo1 path:nth-child(3)").classList.add("logo1-animation");
+          document.querySelector("#logo2 path:nth-child(1)").classList.add("logo2-animation");
+          document.querySelector("#logo2 path:nth-child(2)").classList.add("logo2-animation");
+          document.querySelector("#logo2 path:nth-child(3)").classList.add("logo2-animation");
+          document.getElementById("logo1").classList.add("logo1-load");
+          document.getElementById("logo2").classList.add("logo2-load");
+          $("#loading").fadeOut();
+          $("#hero").fadeIn();
       })
     </script>
   </body>
