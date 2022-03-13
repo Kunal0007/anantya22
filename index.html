@@ -17,6 +17,12 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <title>ANANTYA 22</title>
   </head>
   <body>
@@ -51,6 +57,12 @@
           <path id="outline-bg" opacity="0.05" fill="none" stroke="#ededed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" 
                 d="				M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 				c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
                         </svg>
+    </div>
+
+    <div class="scrollup__btn" id="scrolltoTop" >
+      <a href="#">
+        <i class="fa-solid fa-angle-up fa-xl scrollup__icon"></i>
+      </a>
     </div>
 
     <!-- HERO SECTION -->
@@ -153,85 +165,125 @@
 
     <div class="content" id="content">
     <!-- ABOUT SECTION -->
-    <div class="about">
-      <div class="about-card active-shape">
+      <div class="about" id="about">
+        <div class="about-card active-shape">
 
-        <div class="about-title-div">
-          <h1 style="margin-bottom: 2rem;">ABOUT</h1>
-          <img src="./assets/steps.png" alt="step" >
+          <div class="about-title-div">
+            <h1 style="margin-bottom: 2rem;">ABOUT</h1>
+            <img src="./assets/steps.png" alt="step" >
+          </div>
+          
+          <P class="about-p1">
+            Anantya is an intercollegiate technical symposium for Under Graduate students, hosted by the
+            Computer
+            Department of PCCoE.
+            It'll be a week-long event from 1st March to 7th March, consisting of a total of 15 technical
+            and
+            non-technical events. </p><br>
+          
+          <p class="about-p2">
+            Anantya is being held to encourage students to create, hack, innovative and show their talents.
+            Anantya
+            offers students a platform to learn, grow and earn exciting prizes along the way.</p>
+            <br>
+            <p class="about-p3">To get more information about Anantya check out our brochure.
+            </P>
         </div>
-         
-         <P class="about-p1">
-          Anantya is an intercollegiate technical symposium for Under Graduate students, hosted by the
-          Computer
-          Department of PCCoE.
-          It'll be a week-long event from 1st March to 7th March, consisting of a total of 15 technical
-          and
-          non-technical events. </p><br>
-         
-         <p class="about-p2">
-          Anantya is being held to encourage students to create, hack, innovative and show their talents.
-          Anantya
-          offers students a platform to learn, grow and earn exciting prizes along the way.</p>
-          <br>
-          <p class="about-p3">To get more information about Anantya check out our brochure.
-          </P>
+        <img src="./assets/about-vector2.svg" class="about-vector" />
+        <span class="border-shadow shadow-1"></span>
+        <span class="border-shadow shadow-3"></span>
       </div>
-      <img src="./assets/about-vector2.svg" class="about-vector" />
-      <span class="border-shadow shadow-1"></span>
-      <span class="border-shadow shadow-3"></span>
-    </div>
 
 
-    <!-- EVENT SECTION -->
-    <div class="events py-5" id="events">
-      <div class="event-title-div d-flex justify-content-center">
-        <img src="./assets/steps.png" alt="step" id="step-1" >
-        <h1 class="events-title">Events</h1>
-        <img src="./assets/steps.png" alt="step" id="step-2">
-      </div>
-      <div class="d-flex justify-content-center events-container flex-wrap" id="events-container">
-         <!-- event cards thru events.js -->
+      <!-- EVENT SECTION -->
+      <div class="events py-5" id="events">
+        <div class="event-title-div d-flex justify-content-center">
+          <img src="./assets/steps.png" alt="step" id="step-1" >
+          <h1 class="events-title">Events</h1>
+          <img src="./assets/steps.png" alt="step" id="step-2">
         </div>
-    </div>
+        <div class="d-flex justify-content-center events-container flex-wrap" id="events-container">
+          <!-- event cards thru events.js -->
+          </div>
+      </div>
 
-    <div class="footer__section">
-      <div class="footer__bg">
-        <div class="footer__container">
-            <div>
-                <h1 class="footer__title">Anantya</h1>
-                <span class="footer__subtitle">Experience the Realms Beyond!</span>
+      <!-- Sponsers Section -->
+
+      <div class="sponsers__section">
+        <div class="sponsers">
+          <div class="event-title-div d-flex justify-content-center">
+            <img src="../assets/steps.png" alt="step" id="step-1" >
+            <h1 class="events-title">Sponsers</h1>
+            <img src="../assets/steps.png" alt="step" id="step-2">
+          </div>
+          <div class="sponsers__imgs">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/redbull.svg" class="sponsers__img" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/Amazon_icon.svg" class="sponsers__img" alt="" >
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/Haldiram's_Logo.svg.png" class="sponsers__img" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/1116px-Tata_logo.svg.png" class="sponsers__img" alt="" >
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/flipkart-logo.svg" class="sponsers__img" alt="">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination" style="bottom: 1px;"></div>
             </div>
+            
+              
+          </div>
+        </div>
+     </div>
 
-            <div>
-              <ul class="footer__links" style="padding: 0;">
-                  <li>
-                      <a href="#about" class="footer__link">About</a>
-                  </li>
-                  <li>
-                      <a href="#events" class="footer__link">Events</a>
-                  </li>
-                  <li>
-                    <a href="#calender" class="footer__link">Calender</a>
-                </li>
-              </ul>
-            </div>
+     <!-- Footer Section -->
 
-            <div class="footer__socials">     
+      <div class="footer__section">
+        <div class="footer__bg">
+          <div class="footer__container">
               <div>
-                <a href="https://www.facebook.com/pccoe.acm"><i class="fa-brands fa-facebook footer__social"></i></a>
-                <a href="https://www.instagram.com/pccoeacm/"><i class="fa-brands fa-instagram footer__social"></i></a>                               
-                <a href="mailto:acm@pccoepune.org"><i class="fa-solid fa-envelope footer__social"></i></a>                    
-                <a href="https://www.youtube.com/PCCOEACM"><i class="fa-brands fa-youtube footer__social"></i></a>                             
-                <a href="https://in.linkedin.com/company/pccoe-acm-student-chapter"><i class="fab fa-linkedin footer__social"></i></a>                              
-                <a href="https://twitter.com/pccoeacm"><i class="fab fa-twitter footer__social"></i></a>                             
+                  <h1 class="footer__title">Anantya</h1>
+                  <span class="footer__subtitle">Experience the Realms Beyond!</span>
               </div>
-              <div class="footer__add">
-                  Pimpri Chinchwad College of Engineering.
-                  Near Akurdi Railway Station Rd, Sector No. 26, Pradhikaran, Nigdi, Pimpri-Chinchwad, Maharashtra 411044
-                  <br>Email: acm@pccoepune.org
+
+              <div>
+                <ul class="footer__links" style="padding: 0;">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#events" class="footer__link">Events</a>
+                    </li>
+                    <li>
+                      <a href="#calender" class="footer__link">Calender</a>
+                  </li>
+                </ul>
               </div>
-            </div>
+
+              <div class="footer__socials">     
+                <div>
+                  <a href="https://www.facebook.com/pccoe.acm"><i class="fa-brands fa-facebook footer__social"></i></a>
+                  <a href="https://www.instagram.com/pccoeacm/"><i class="fa-brands fa-instagram footer__social"></i></a>                               
+                  <a href="mailto:acm@pccoepune.org"><i class="fa-solid fa-envelope footer__social"></i></a>                    
+                  <a href="https://www.youtube.com/PCCOEACM"><i class="fa-brands fa-youtube footer__social"></i></a>                             
+                  <a href="https://in.linkedin.com/company/pccoe-acm-student-chapter"><i class="fab fa-linkedin footer__social"></i></a>                              
+                  <a href="https://twitter.com/pccoeacm"><i class="fab fa-twitter footer__social"></i></a>                             
+                </div>
+                <div class="footer__add">
+                    Pimpri Chinchwad College of Engineering.
+                    Near Akurdi Railway Station Rd, Sector No. 26, Pradhikaran, Nigdi, Pimpri-Chinchwad, Maharashtra 411044
+                    <br>Email: acm@pccoepune.org
+                </div>
+              </div>
         </div>
 
         <p class="footer__copy">&#169; Designed and developed with ❤️ by Web Team CESA | Copyright ©2021 All rights reserved</p>
@@ -264,5 +316,45 @@
       $("#content").css('opacity', '1');
     }
     </script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        breakpoints: {
+          360: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          900: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          }
+        },
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
   </body>
 </html>
