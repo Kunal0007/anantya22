@@ -397,11 +397,11 @@ button.button:hover {
     visibility: hidden;
   }
 
-  .sponsers {
+  .sponsors {
     padding: 50px;
   }
 
-  .sponsers__section {
+  .sponsors__section {
     padding: 0;
   }
 
@@ -430,11 +430,11 @@ button.button:hover {
     visibility: visible;
   }
 
-  .sponsers {
+  .sponsors {
     padding: 20px;
   }
 
-  .sponsers__section {
+  .sponsors__section {
     padding: 15px 90px;
   }
 
@@ -475,27 +475,27 @@ button.button:hover {
   }
 }
 
-/* Sponsers */
+/* sponsors */
 
-.sponsers__section {
+.sponsors__section {
   order: 4;
   background-color: #0f0f1f;
   
 }
 
-.sponsers {
+.sponsors {
   background-color: #1e1f35;
   text-align: center;
   color: #fff;
 }
 
-.sponsers__imgs {
+.sponsors__imgs {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
 
-.sponsers__img {
+.sponsors__img {
   width: 150px;
   height: 150px;
   margin-bottom: 25px;
